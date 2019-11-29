@@ -1,4 +1,146 @@
-﻿
-body {
-    background-image: url(picture.jpg);
+﻿  
+html{
+    font-family:Helvetica, Arial, sans-serif;
+    color:black;
 }
+body {
+    background-color: lightbluegray;
+}
+h1{
+    background-color: teal;
+    display:block;
+    text-align:center;
+    text-shadow:-2px 2px white;
+    border-radius:10px;
+    margin:2% 5%;
+	text: 20px;
+	font-size: 130px;
+}
+h2 {
+    background-color: teal;
+    display: block;
+    text-align: center;
+    text-shadow: -2px 2px lightgray;
+    border-radius: 10px;
+    margin: 2% 5%;
+	font-size: 80px;
+}
+nav {
+    align-content: center;
+    margin: 0% 5%;
+    padding: 0% 0% 2% 0%;
+	
+}
+.NavLinks {
+    text-decoration: none;
+    font-size:50px;
+    background: mintcream;
+    margin: 1%;
+    color: black;
+    text-shadow: -1px 1px white;
+    text-align: center;
+    float: left;
+    border-radius: 10px;
+    box-shadow:-1px 1px grey;
+}
+.NavLinks:hover{
+    background-color:darkslategray;
+    color:white;
+    text-shadow:0px 0px;
+}
+#Card{
+width: auto;
+height: auto;
+}
+#IntroCard {
+    opacity: .85;
+}
+img{
+    align-content: center;
+    display:block;
+    max-width: 20%;
+    height: auto;
+    width:auto;
+    float:left;
+    margin: 2% 40%;
+    border:1px solid black; 
+    border-radius: 3px;
+}
+.rotate90
+{
+	-webkit-transform: rotate(90deg);
+}
+
+#CardText {
+    background-color: lightblue;
+    font-display: block;
+    text-align: center;
+    margin: 7% 36%;
+    border: 2px solid black;
+    padding: 0% 0% .5% 0%;
+    border-radius: 3px;
+    box-shadow: -1px 1px grey;
+	rotate: 180;
+	
+}
+
+#AboutMe {
+    background-color: lightblue;
+    display: block;
+    margin: 5% 0%;
+    padding: 5px 30px;
+    text-shadow: .5px .5px white;
+}
+#AboutMe:hover {
+background-color: red;
+}
+
+#Contact {
+    display: block;
+    text-align: center;
+    text-shadow: -2px 2px lightgray;
+    text-decoration:none;
+    color:black;
+    font-size: 22px;
+    margin:100px 40%;
+}
+
+#Projects {
+    background-color: lightblue;
+    margin: 12% 40%;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow:-1px 1px gray;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    color:blue;
+}
+table, th, tr, td {
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: -1px 1px gray;
+}
+table,tr,td:hover{
+    background-color:white;
+}
+#AboutSkills {
+    background-color: lightblue;
+    margin: 5% 20%;
+    border-radius: 10px;
+    box-shadow: -1px 1px gray;
+}
+#Skills {
+    background-color: lightblue;
+    margin: 0% 30%;
+    border-radius: 10px;
+    box-shadow: -1px 1px gray;
+}
+#Spacer{
+    margin:150% 45% 130% 45%;
+}
+
