@@ -32,7 +32,7 @@ h3{
 nav {
     align-content: center;
     margin: 0% 5%;
-    padding: 0% 0% 2% 0%;
+    padding: 5% 0% 5% 0%;
 	
 }
 .NavLinks {
@@ -53,23 +53,21 @@ nav {
     text-shadow:0px 0px;
 }
 
-#CardContainer{
-
+.CardContainer{
+	padding: 5px 0px 5px 0px;
 }
-#IntroCard {
-    opacity: .85;
-	}
 
 img{
     align-content: right;
     display:block;
     max-width: 20%;
+	padding: 
     height: auto;
     width:auto;
     float:left;
     margin: 2% 40%;
-    border:1px solid black; 
     border-radius: 5px 5px 0 0;
+	    padding: 30px 0px 5px 0px;
 
 }
 .rotate90
@@ -78,12 +76,12 @@ img{
 }
 
 #CardText {
-    background-color: lightblue;
+background-color: lightgray;
     font-display: block;
     text-align: center;
-    margin: 3% 36%;
+	margin: 3px 36px;
     border: 2px solid black;
-    padding: 0% 0% .5% 0%;
+    padding: 4px 0px 5px 0px;
     border-radius: 3px;
     box-shadow: -1px 1px grey;
 }
