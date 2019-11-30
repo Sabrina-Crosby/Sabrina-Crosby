@@ -11,7 +11,7 @@ h1{
     display:block;
     text-align:center;
     text-shadow:-1px 2px lightblue;
-    border-radius:10px;
+
     margin:2% 5%;
 	text: 20px;
 	font-size: 30px;
@@ -21,7 +21,6 @@ h2 {
     display: block;
     text-align: center;
     text-shadow: -2px 2px lightblue;
-    border-radius: 10px;
     margin: 2% 5%;
 	font-size: 25px;
 }
@@ -31,21 +30,22 @@ h3{
 }
 nav {
     align-content: center;
-    margin: 0% 5%;
+	    margin: center;
     padding: 5% 0% 5% 0%;
 	
 }
 .NavLinks {
     text-decoration: none;
-    font-size:18px;
-    background: mintcream;
-    margin: 1%;
+
+    background-color: mintcream;
+
     color: black;
-    text-shadow: -1px 1px white;
+	overflow: hidden;
     text-align: center;
     float: left;
-    border-radius: 10px;
-    box-shadow:-1px 1px grey;
+	display: block;
+	padding: 5px;
+
 }
 .NavLinks:hover{
     background-color:#F4D03F;
@@ -54,20 +54,20 @@ nav {
 }
 
 .CardContainer{
-	padding: 5px 0px 5px 0px;
+	padding: 0;
+	margin: 0;
 }
 
 img{
     align-content: right;
     display:block;
-    max-width: 20%;
-	padding: 
+    max-width: 25%;
     height: auto;
     width:auto;
     float:left;
-    margin: 2% 40%;
+	margin: 2% 40%;
     border-radius: 5px 5px 0 0;
-	    padding: 30px 0px 5px 0px;
+	padding: 40px 0px 5px 0px;
 
 }
 .rotate90
@@ -79,10 +79,10 @@ img{
 background-color: lightgray;
     font-display: block;
     text-align: center;
-	margin: 3px 36px;
-    border: 2px solid black;
+	margin: auto;
+
     padding: 4px 0px 5px 0px;
-    border-radius: 3px;
+
     box-shadow: -1px 1px grey;
 }
 
